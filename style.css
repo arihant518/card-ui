@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.hero-page{
+    min-height: 650px;
+    background: url(images/hero-image.png) no-repeat center center/cover;
+    background-size: 100% 100%;
+}
+p{
+    margin: 0 !important;
+}
+.navbar{
+    display: flex;
+    gap: 24px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav{
+    flex-grow: 1;
+    gap: 24px;
+}
+
+.get-started-btn{   
+    background-color: #020526 !important;
+    border-radius: 6px;
+}
+.get-started-now-btn{
+    background-color: #2ABECE !important;    
+    border-radius: 10px;   
+
+}
+
+.payment-text{
+    color:#2ABECE !important; ;
+}
+
+.content-section {
+   background: linear-gradient(90deg, #020526, #033D47, #0B2649);
+  
+}
+.feature-section{
+    height: 240px;
+}
+
+.feature-text{
+    font-size: 14px;
+    color: #FFFFFFB2
+}
+
+.card, .card .btn{
+    border-color: transparent !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+.card:hover{
+    background: linear-gradient(45deg, #020526, #033D47, #0B2649);
+}
+
+.detail-text{
+    border-left: #2ABECE solid !important;
+    padding-left: 20px;
+    height: 130px
+}
+
+.service{
+    height: 200px;
+}
+
+.about-us-container{
+    padding-bottom: 40px !important;
+}
+.about-us{
+    height: 400px;
+}
+
+.footer-section{
+    padding: 0px !important;
+    background:  url(./images/footer-wave.svg), linear-gradient(90deg, #020526, #033D47, #0B2649);
+}
+
+.footer-section > .container:first-child{
+    padding: 120px 0px 60px !important;
+}
+.gallery-img-container img{
+    width: 85px;
+    height: 70px;
+    object-fit: cover;
+}
